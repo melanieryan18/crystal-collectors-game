@@ -1,0 +1,61 @@
+
+
+/* Body & Header */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://s3.pixers.pics/pixers/700/FO/11/41/55/32/1/700_FO114155321_c91fc9c5b7946ed57bebde008e0c30e3.jpg);
+    background-repeat: repeat;
+}
+
+#container {
+    width: 850px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+#banner {
+    padding: 20px 20px;
+    background-color: orange;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Instructions and Game */
+#instructions {
+    background-color: pink;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 18px;
+    padding: 10px 10px 30px 10px;
+}
+
+#random-number {
+    background-color:green;
+    text-align: center;
+    padding: 10px 10px
+
+}
+
+
+#scoreboard {
+    background-color: aqua;
+    color: black;
+    padding: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* Total Score Bottom Section*/
+
+#totalscore-text {
+    background-color: teal;
+    color: white;
+}
+
+#totalscore {
+    background-color: teal;
+    color: white;
+    padding: 10px 10px;
+
+}
