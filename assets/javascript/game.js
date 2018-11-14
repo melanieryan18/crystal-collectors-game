@@ -57,7 +57,7 @@ $("#crystals").on("click",".crystal-image", function () {
         wins++;
         $("#random-number").text(targetNumber);
         reset();
-        $("#winsText").text("Wins " + wins);
+        $("#winsText").text("Wins: " + wins);
     }
 
     else if (counter >= targetNumber) {
@@ -65,7 +65,7 @@ $("#crystals").on("click",".crystal-image", function () {
         losses++;
         $("#random-number").text(targetNumber);
         reset();
-        $("#lossesText").text("Losses " + losses);
+        $("#lossesText").text("Losses: " + losses);
 
     }
 
